@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter-Regular.otf');
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(27, 84, 221);
+    display: grid;
+    place-items: center;
+    padding-top: 32px;
+    color: white;
+    text-align: center;
+}
+
+.logo {
+
+    height: 55.44px;
+    width: 100px;
+    font-family: Impact;
+    font-size: 31.58px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 27.63px;
+
+}
+
+.header-h1 {
+    width: 480px;
+    height: 88px;
+    font-family: "Inter";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.header-img {
+    width: 480px;
+    height: 270px;
+    background: url(images/header-img.jpg);
+    background-position: center center;
+}
+
+.header-h2 {
+    width: 480px;
+    height: 87px;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+}
+
+.header-subtext {
+    width: 480px;
+    height: 85px;
+    font-family: "Inter";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+}
+
+.header-button {
+    width: 110px;
+    height: 41px;
+    display: flex;
+    flex-direction: row;
+    padding: 12px 24px 12px 24px;
+    flex: none;
+    margin: 32px 0px;
+    border-radius: 2px;
+    background: rgb(255, 255, 255);
+}
+
+.button-text {
+    height: 17px;
+    padding: 12px 24px 12px 24px;
+    flex: none;
+    color: rgb(26, 32, 40);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+
+main {
+    display: grid;
+    place-items: center;
+}
+
+.item {
+    position: static;
+    width: 480px;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 32px 60px;
+}
+
+.item img {
+    position: static;
+    width: 240px;
+    height: 240px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 32px 0px 0px;
+}
+
+.item-descripstion {
+    position: static;
+    width: 208px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    gap: 16;
+    padding: 0px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    /* margin: 0px 32px; */
+    color: rgb(38, 38, 38);
+
+    font-family: Inter;
+
+
+    letter-spacing: 0px;
+
+    text-align: left;
+}
+
+.item-descripstion h2 {
+    font-size: 24px;
+
+    font-weight: 700;
+
+    line-height: 29px;
+}
+
+.item-descripstion span {
+    font-size: 14px;
+
+    font-weight: 400;
+
+    line-height: 17px;
+}
+
+.item-descripstion a {
+    font-size: 14px;
+
+    font-weight: 600;
+
+    line-height: 17px;
+    color: rgb(27, 84, 221);
+    margin: 16px 0px;
+    text-decoration: none;
+}
+
+.main-button {
+    width: 110px;
+    height: 41px;
+    display: flex;
+    flex-direction: row;
+    padding: 12px 24px 12px 24px;
+    flex: none;
+    margin: 32px 0px;
+    border-radius: 2px;
+    background: rgb(27, 84, 221);
+}
+
+footer {
+    background: rgb(232, 232, 232);
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.social-icons {
+    /* Social Icons (Footer)  */
+
+    position: static;
+
+    width: 118px;
+
+    height: 18px;
+
+    /* Автолейаут */
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    padding: 0px;
+
+
+
+    margin: 26px 0px 0px 0px;
+}
+
+.footer-information h2 {
+    color: rgb(38, 38, 38);
+
+    font-family: Inter;
+    font-size: 14pt;
+    font-weight: 400;
+
+    letter-spacing: 0px;
+
+    text-align: center;
+}
+
+.footer-information span {
+    position: static;
+    width: 100px;
+    color: rgb(38, 38, 38);
+    font-family: Inter;
+    font-size: 10pt;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+}
+.dma-logo{
+    width: 40px;
+    height: 22px;
+    margin: 16px 0px 26px 0px;
+}
